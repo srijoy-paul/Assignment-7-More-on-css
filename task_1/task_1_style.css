@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#navbar {
+  background-image: linear-gradient(
+    to right,
+    rgb(85, 161, 224),
+    rgb(62, 111, 209)
+  );
+}
+#navbar ul {
+  /* border: 2px solid green; */
+  list-style: none;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 15px;
+  padding: 20px 0;
+}
+#navbar ul li {
+  margin-left: 45px;
+}
+#navbar ul li a {
+  color: white;
+}
